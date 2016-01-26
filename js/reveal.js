@@ -2539,14 +2539,14 @@
 	}
 
 	/**
-	 * Updates the slide number div to reflect the current slide.
-	 *
+	* Updates the slide number div to reflect the current slide.
+	*
 	 * The following slide number formats are available:
-	 *  "h.v": 	horizontal . vertical slide number (default)
-	 *  "h/v": 	horizontal / vertical slide number
-	 *    "c": 	flattened slide number
-	 *  "c/t": 	flattened slide number / total slides
-	 */
+	 *  "h.v": horizontal . vertical slide number (default)
+	 *  "h/v": horizontal / vertical slide number
+	 *    "c": flattened slide number
+	 *  "c/t": flattened slide number / total slides
+	*/
 	function updateSlideNumber() {
 
 		// Update slide number if enabled
